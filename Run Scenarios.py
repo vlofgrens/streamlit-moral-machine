@@ -314,7 +314,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Main App ---
-st.title("Ethical AI Decision Builder")
+st.title("Ai Trolley Problem: Will an LLM save itself or prioritize other lives?")
 
 st.sidebar.header("Scenario Configuration")
 
