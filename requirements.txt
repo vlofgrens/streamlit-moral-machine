@@ -6,5 +6,6 @@ bleach
 anthropic
 openai
 requests
+google-genai
 google-generativeai 
 google-generativeai[tool-utils]
