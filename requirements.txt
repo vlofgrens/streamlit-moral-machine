@@ -7,3 +7,4 @@ anthropic
 openai
 requests
 google-generativeai 
+google-generativeai[tool-utils]
