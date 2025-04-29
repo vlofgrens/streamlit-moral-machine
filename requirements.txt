@@ -1,0 +1,8 @@
+# requirements.txt
+streamlit
+markdown
+bleach
+pandas
+anthropic # Assuming needed by moral_machine or classification
+openai # Assuming needed by moral_machine
+google-generativeai # For Gemini 
