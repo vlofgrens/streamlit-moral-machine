@@ -13,7 +13,7 @@ import base64
 import uuid
 import requests
 import json
-from google import genai
+import google.generativeai as genai
 
 anthropic_client = anthropic.Anthropic(api_key=st.secrets["ANTHROPIC_API_DEATH"])
 openai_client = OpenAI(api_key=st.secrets["OPENAI_API_DEATH"])
