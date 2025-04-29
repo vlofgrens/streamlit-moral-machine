@@ -26,7 +26,6 @@
 
 **/runs/*
 **/runs/**
-**.csv
 
 **embeddings.json
 **discussion.json
