@@ -9,21 +9,18 @@ import markdown
 import bleach
 import anthropic
 from openai import OpenAI
-from dotenv import load_dotenv
-import os
+import base64
+import uuid
 import requests
 import json
-from tools_prompts import *
 from google import genai
 
-load_dotenv()
-
-anthropic_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_DEATH"))
-openai_client = OpenAI(api_key=os.getenv("OPENAI_API_DEATH"))
+anthropic_client = anthropic.Anthropic(api_key=st.secrets["ANTHROPIC_API_DEATH"])
+openai_client = OpenAI(api_key=st.secrets["OPENAI_API_DEATH"])
 deepseek_client = OpenAI(
-    api_key=os.getenv("DEEPSEEK_API_KEY"), base_url="https://api.deepseek.com"
+    api_key=st.secrets["DEEPSEEK_API_KEY"], base_url="https://api.deepseek.com"
 )
-gemini_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+gemini_client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
 
 
 current_dir = os.path.dirname(os.path.abspath(__file__))

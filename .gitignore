@@ -130,3 +130,5 @@ development/cookieman/pkl_to_json/output/*
 
 *.__pycache__
 *.pyc
+
+.streamlit/secrets.toml
