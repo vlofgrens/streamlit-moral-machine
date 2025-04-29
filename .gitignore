@@ -1,0 +1,132 @@
+.env
+/old_experiments/gym_consciousness/game_cycles
+*.ipynb_checkpoints
+
+*.ipynb_checkpoints
+
+#removing video files
+*.mp4
+*.avi
+
+#Removing audio files
+*.mp3
+
+#development/generative_agents/environment/frontend_server/storage
+# Generative agents
+#reverie/backend_server/utils.py
+/development/generative_agents/frontend_server/settings/local.py
+**/storage/*
+**/storage/**
+**/storage/**/*
+**/storage/**/*/*
+**/storage/**/*/*/*
+**/storage/**/*/*/*/*
+**/storage/**/*/*/*/*/**/
+**/reasoning_traces/*
+
+**/runs/*
+**/runs/**
+**.csv
+
+**embeddings.json
+**discussion.json
+**thesis.json
+**short_term.json
+**long_term.json
+**kw_strength.json
+**nodes.json
+
+**/.venv**
+
+**/trolley_simulation_results/*
+
+**/embeddings.json
+**/kw_strength.json
+**/nodes.json
+
+/development/generative_agents/include/
+/development/generative_agents/pip-selfcheck.json
+/development/generative_agents/.DS_Store
+#Byte-compiled / optimized / DLL files
+/development/generative_agents/__pycache__/
+/development/generative_agents/*.py[cod]
+/development/generative_agents/*$py.class
+#C extensions
+/development/generative_agents/*.so
+#Distribution / packaging
+/development/generative_agents/.Python
+/development/generative_agents/env/
+/development/generative_agents/build/
+/development/generative_agents/develop-eggs/
+/development/generative_agents/dist/
+/development/generative_agents/downloads/
+/development/generative_agents/eggs/
+/development/generative_agents/.eggs/
+/development/generative_agents/lib/
+/development/generative_agents/lib64/
+/development/generative_agents/parts/
+/development/generative_agents/sdist/
+/development/generative_agents/var/
+/development/generative_agents/*.egg-info/
+/development/generative_agents/.installed.cfg
+/development/generative_agents/*.egg
+#PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+/development/generative_agents/*.manifest
+/development/generative_agents/*.spec
+#Installer logs
+/development/generative_agents/pip-log.txt
+/development/generative_agents/pip-delete-this-directory.txt
+#Unit test / coverage reports
+/development/generative_agents/htmlcov/
+/development/generative_agents/.tox/
+/development/generative_agents/.coverage
+/development/generative_agents/.coverage.*
+/development/generative_agents/.cache
+/development/generative_agents/nosetests.xml
+/development/generative_agents/coverage.xml
+/development/generative_agents/*,cover
+/development/generative_agents/.hypothesis/
+#Translations
+/development/generative_agents/*.mo
+/development/generative_agents/*.pot
+#Django stuff:
+/development/generative_agents/*.log
+/development/generative_agents/local_settings.py
+#Flask stuff:
+/development/generative_agents/instance/
+/development/generative_agents/.webassets-cache
+#Scrapy stuff:
+/development/generative_agents/.scrapy
+#Sphinx documentation
+/development/generative_agents/docs/_build/
+#PyBuilder
+/development/generative_agents/target/
+#IPython Notebook
+/development/generative_agents/.ipynb_checkpoints
+#pyenv
+/development/generative_agents/.python-version
+#celery beat schedule file
+/development/generative_agents/celerybeat-schedule
+#dotenv
+/development/generative_agents/.env
+#virtualenv
+/development/generative_agents/venv/
+/development/generative_agents/ENV/
+#Spyder project settings
+/development/generative_agents/.spyderproject
+#Rope project settings
+/development/generative_agents/.ropeproject
+/development/generative_agents/environment/frontend_server/storage/*/environment/*
+/development/generative_agents/environment/frontend_server/storage/*/movement/*
+/development/generative_agents/environment/frontend_server/temp_storage/*
+
+**/game_cycles/**
+
+.venv/*
+
+development/cookieman/pkl_to_json/output/*
+
+*.__pycache__
+*.pyc
